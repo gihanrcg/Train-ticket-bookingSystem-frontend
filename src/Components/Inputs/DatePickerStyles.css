@@ -1,0 +1,18 @@
+.react-datepicker__input-container {
+    width: inherit;
+    background-color: white;
+    color: white;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker-ignore-onclickoutside {
+    background-color: white;
+}
+
+.date-picker {
+    background-color: white;
+}
+

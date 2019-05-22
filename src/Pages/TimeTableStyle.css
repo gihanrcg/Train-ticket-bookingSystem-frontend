@@ -1,0 +1,26 @@
+
+    /*.table-data {*/
+        /*width: 600px;*/
+    /*}*/
+
+
+    /*.table-data-sec {*/
+        /*width: 300px;*/
+    /*}*/
+
+    input, label {
+        float:left;
+        margin:5px;
+    }
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menuTable {
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

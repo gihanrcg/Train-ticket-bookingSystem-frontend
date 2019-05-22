@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+ul.topnavBar {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #fff;*/
+    margin-left: 18%;
+
+}
+
+ul.topnavBar li {
+    float: left;
+}
+
+ul.topnavBar li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+}
+
+ul.topnavBar li a:hover:not(.active) {
+    color: crimson;
+    font-weight: bold;
+}
+
+ul.topnavBar li a.active {
+    background-color: #4CAF50;
+}
+
+ul.topnavBar li.right {
+    float: right;
+}
+
+ul.topnavBar li a.siteName {
+    color: coral;
+    font-size: large;
+    font-weight: bold;
+}
+
+li.login-style {
+    position: absolute;
+    right: 2%;
+}
+
+li.signUp-style {
+    position: absolute;
+    right: 6%;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
+
+hr.new5 {
+    border: 1px solid coral;
+    border-radius: 5px;
+    margin-top: -20px;
+}
